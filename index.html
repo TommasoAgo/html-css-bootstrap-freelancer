@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header">
+    <header>
+        <!-- Header Menu -->
+        <div class="header-nav">
             <div class="container">
                 <div class="wrapper">
                     <div class="row">
+                        <!-- Header Logo -->
                         <div class="col-xs-6">
                             <div class="logo">
                                 Start Bootstrap
@@ -22,14 +26,18 @@
                         </div>
                         <div class="col-xs-6">
                             <div class="row">
+                                <!-- Header Menu -->
                                 <div class="col-xs-12 hidden-xs">
                                     <div class="header-menu">
                                         menu
                                     </div>
                                 </div>
+                                <!-- Burger Menu -->
                                 <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
                                     <div class="burger-menu">
-                                        burger
+                                        <a href="">
+                                            <i class="fas fa-bars"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +45,20 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <!-- Jumbotron Text -->
+            <div class="jumbotron-text">
+                <h1>Start Bootstrap</h1>
+                <i class="fas fa-star"></i>
+                <p>Graphic Artist - Web Designer - Illustrator</p>
+            </div>
+        </div>
+        
     </header>
+
+    <!-- HEADER ENDING -->
     
 </body>
 </html>

@@ -1,5 +1,5 @@
 /* HEADER */
-.header {
+.header-nav {
     background-color: #2c3e50;
     color: white;
     padding: 20px 0;
@@ -10,8 +10,35 @@
     margin: auto;
 }
 
+.logo {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .header-menu,
 .burger-menu {
     text-align: right;
+}
+
+.burger-menu i {
+    color: white;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #1abc9c;
+}
+
+.jumbotron-text {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    width: 80%;
+    margin: auto;
+}
+
+.jumbotron-text> h1 {
+    font-size: 50px;
 }
 
