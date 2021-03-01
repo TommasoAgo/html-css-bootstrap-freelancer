@@ -1,13 +1,24 @@
+/* COMMON */
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+.small-wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
 /* HEADER */
 .header-nav {
     background-color: #2c3e50;
     color: white;
     padding: 20px 0;
-}
-
-.wrapper {
-    max-width: 800px;
-    margin: auto;
 }
 
 .logo {
@@ -41,4 +52,16 @@
 .jumbotron-text> h1 {
     font-size: 50px;
 }
+
+/* MAIN */
+/* Portfolio Section */
+
+/* TEST */
+.portfolio-img {
+    height: 220px;
+    background-color: lightcoral;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
 
