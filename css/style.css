@@ -182,6 +182,8 @@ footer h3 {
 .freelancer {
     text-align: center;
     width: 81%;
+    margin: auto;
+    padding: 20px 0;
 }
 
 .footer_social ul {
