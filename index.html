@@ -28,9 +28,19 @@
                             <div class="row">
                                 <!-- Header Menu -->
                                 <div class="col-xs-12 hidden-xs">
-                                    <div class="header-menu">
-                                        menu
-                                    </div>
+                                    <nav class="header-menu">
+                                        <ul>
+                                            <li>
+                                                <a href="">Porftolio</a>
+                                            </li>
+                                            <li>
+                                                <a href="">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
                                 </div>
                                 <!-- Burger Menu -->
                                 <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
@@ -48,6 +58,11 @@
         </div>
         <!-- Jumbotron -->
         <div class="jumbotron">
+            <div class="container-fluid">
+                <div class="hero_img center-block">
+                    <img class="img-responsive" src="img/avatar.svg" alt="">
+                </div>
+            </div>
             <!-- Jumbotron Text -->
             <div class="jumbotron-text">
                 <h1>Start Bootstrap</h1>
@@ -154,10 +169,28 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
-                <!-- FORM TEST -->
-                <div>
-                
+                <!-- FORM  -->
+                <div class="container-fluid">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="name" class="form-control form_custom" id="exampleInputEmail1" placeholder="Name">
+                          </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control form_custom" id="exampleInputEmail1" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Phone Number</label>
+                            <input type="phonenumber" class="form-control form_custom" id="exampleInputPassword1" placeholder="Phone Number">
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+    
+                        <!-- Send Button -->
+                        <button type="submit" class="btn btn_send">Send</button>
+                      </form>
                 </div>
+                
         </section>
     </main>
 
@@ -173,19 +206,42 @@
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <div class="location">
                                 <h3>Location</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, similique perferendis cupiditate in aut asperiores iusto maxime commodi. Consequuntur ipsa id quisquam. Atque dolorum quasi minus esse ad et asperiores!</p>
+                                <p>2215 John Daniel Drive Clark, MO 54243</p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <div class="around-web">
                                 <h3>Around The Web</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, laboriosam, libero iusto necessitatibus illo eveniet dolore exercitationem odit recusandae debitis incidunt ea expedita nobis repudiandae tenetur autem ipsa voluptatem deleniti!</p>
+                                <nav class="footer_social">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fab fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <div class="freelancer">
                                 <h3>Freelancer</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur, dolore, exercitationem quidem sequi quo aut laudantium maiores perspiciatis vel explicabo? Maiores natus voluptatibus ex id sequi, iste sed excepturi.</p>
+                                <p>Freelance is a free to use, open source Bootstrap them created by <a href="">Start Bootstrap</a>.</p>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@
 }
 
 .small-wrapper {
-    max-width: 46%;
+    max-width: 60%;
     margin: auto;
 }
 
@@ -37,17 +37,43 @@
 }
 
 /* Header menu */
+.header-menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 30px;
+    vertical-align: middle;
+}
 
+.header-menu li> a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-menu li> a:hover {
+    color: #3a546d;
+}
 
 /* Burger Menu */
 
 .burger-menu i {
     color: white;
+    vertical-align: middle;
 }
 
 /* Jumbotron */
 .jumbotron {
     background-color: #1abc9c;
+}
+
+.hero_img {
+    width: 20%;
+}
+
+@media all and (max-width: 769px) {
+    .hero_img {
+        width: 70%;
+    }
 }
 
 .jumbotron-text {
@@ -105,10 +131,36 @@
     background-color: white;
 }
 
+.btn_send {
+    background-color: #1abc9c;
+    color: white;
+}
+
 /* Contact Me Section */
-/* TEST */
 .contact-me {
-    height: 500px;
+    padding: 20px 0;
+}
+
+label {
+    display: none;
+}
+
+.form_custom {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+form textarea {
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 /* FOOTER */
@@ -129,6 +181,26 @@ footer h3 {
 .around-web,
 .freelancer {
     text-align: center;
+    width: 81%;
+}
+
+.footer_social ul {
+    padding: 0;
+}
+
+.footer_social ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.footer_social ul li a {
+    color: white;
+    font-size: 30px;
+}
+
+.freelancer a {
+    color: #1abc9c;
 }
 
 /* Second Row */
