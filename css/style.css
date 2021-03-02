@@ -10,8 +10,12 @@
 }
 
 .small-wrapper {
-    max-width: 800px;
+    max-width: 46%;
     margin: auto;
+}
+
+.star {
+    padding: 20px 0;
 }
 
 /* HEADER */
@@ -32,6 +36,11 @@
     text-align: right;
 }
 
+/* Header menu */
+
+
+/* Burger Menu */
+
 .burger-menu i {
     color: white;
 }
@@ -49,18 +58,22 @@
     margin: auto;
 }
 
+.jumbotron-text p {
+    font-size: 20px;
+}
+
 .jumbotron-text> h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 /* MAIN */
 /* Portfolio Section */
 
-/* TEST */
 .portfolio-img {
-    height: 220px;
-    background-color: lightcoral;
     margin: 15px 0;
+}
+
+.pic {
     border-radius: 10px;
 }
 
@@ -76,8 +89,20 @@
     padding: 10px;
 }
 
-.bottone {
+/* Button */
+.button {
     text-align: center;
+    padding: 20px 0;
+}
+
+.btn_download {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn_download:hover {
+    color: #1abc9c;
+    background-color: white;
 }
 
 /* Contact Me Section */
