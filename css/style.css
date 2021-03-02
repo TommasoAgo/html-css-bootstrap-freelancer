@@ -185,6 +185,11 @@ form textarea {
     border-bottom: 1px solid #e5e5e5;
 }
 
+textarea[placeholder] {
+    padding-left: 12px;
+    pad
+}
+
 /* FOOTER */
 /* First Row */
 footer {
